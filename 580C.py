@@ -35,8 +35,8 @@ class Graph:
     src.add_child(dst)
     dst.set_parent(src)
 
-    # dst.add_child(src)
-    # src.set_parent(dst)
+    dst.add_child(src)
+    src.set_parent(dst)
 
 
 
