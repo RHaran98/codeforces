@@ -23,7 +23,7 @@ class Graph:
     self.nodes[1] = self.root
 
   def add_edge(self,src,dst):
-    # src,dst = sorted((src,dst))
+    src,dst = sorted((src,dst))
     if not src in self.nodes:
       self.nodes[src] = Node(src)
     src = self.nodes[src]
